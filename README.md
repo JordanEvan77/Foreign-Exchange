@@ -1,2 +1,4 @@
 # Foreign-Exchange
-This small program takes the inputted necessary values and calculates the options value using the  model.
+This small program takes the inputted necessary values and calculates the options value using the Garman-Kohlhagan model, advising if the option is desireable. The scenario I was given was:
+"Many companies hedge foreign currency exchange risk versus their domestic currency (say US Dollars for American companies). If future foreign cash flows are certain, the best hedge is to enter into a forward contract to exchange foreign currency for domestic currency on some future date at a specific exchange rate. Write a function that takes the option contract parameters (type--call or put, strike price, and expiration date) as well as market observations (spot exchange rate, volatility, and interest rates in both the domestic and foreign currencies) and returns the fair market value of the option contract."
+I defined 5 different function that all interact within the program in order to be able to calculate the options value, the values are already pre inserted into the program, but can be rearranged for testing variety. 
